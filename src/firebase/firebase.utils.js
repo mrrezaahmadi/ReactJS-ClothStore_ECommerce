@@ -15,6 +15,8 @@ const config = {
     measurementId: "G-WCBW69H31G"
 }
 
+
+// create a document in our database
 const createUserProfileDocument = async (userAuth, additionalData) => {
     if (!userAuth) return;
 
