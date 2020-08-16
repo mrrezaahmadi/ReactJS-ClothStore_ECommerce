@@ -1,12 +1,15 @@
 import React from "react";
-import "./homepage.styles.scss";
 import Directory from "../../components/directory-menu/directory-menu.component";
+
+// import "./homepage.styles.scss";
+import { HamePageContainer } from "./homepage.styles";
+
 
 function HomePage() {
 	return (
-		<div className="homepage">
+		<HamePageContainer>
 			<Directory />
-		</div>
+		</HamePageContainer>
 	);
 }
 
