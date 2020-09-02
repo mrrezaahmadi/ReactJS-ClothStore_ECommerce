@@ -80,9 +80,18 @@ firebase.initializeApp(config)
 const firestore = firebase.firestore()
 const auth = firebase.auth()
 
-const provider = new firebase.auth.GoogleAuthProvider()
-provider.setCustomParameters({ prompt: 'select_account' })
-const signInWithGoogle = () => auth.signInWithPopup(provider)
+const getCurrentUser = () => {
+    return new Promise((resolve, reject) => {
+        const unsubscribe = auth.onAuthStateChanged(userAuth => {
+            unsubscribe();
+            resolve(userAuth);
+        }, reject)
+    })
+}
 
-export { firestore, auth, signInWithGoogle, createUserProfileDocument }
+const googleProvider = new firebase.auth.GoogleAuthProvider()
+googleProvider.setCustomParameters({ prompt: 'select_account' })
+const signInWithGoogle = () => auth.signInWithPopup(googleProvider)
+
+export { firestore, auth, signInWithGoogle, createUserProfileDocument, googleProvider, getCurrentUser }
 export default firebase
