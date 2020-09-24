@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/precache-manifest.58ee98a96049f2fa1c29cacd015ed2fb.js"
+  "/mrrezaahmadi/ReactJS-ClothStore_ECommerce/precache-manifest.f9fe8d5fbf4d78477cc803d52a9226f6.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/mrrezaahmadi/ReactJS-ClothStore_ECommerce/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
