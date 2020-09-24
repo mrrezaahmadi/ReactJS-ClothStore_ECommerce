@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/static/css/main.b15ff47e.chunk.css",
+    "main.js": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/static/js/main.6a56a267.chunk.js",
+    "main.js.map": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/static/js/main.6a56a267.chunk.js.map",
+    "runtime-main.js": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/static/js/runtime-main.8e24ed1e.js",
+    "runtime-main.js.map": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/static/js/runtime-main.8e24ed1e.js.map",
+    "static/js/2.e6ab0b89.chunk.js": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/static/js/2.e6ab0b89.chunk.js",
+    "static/js/2.e6ab0b89.chunk.js.map": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/static/js/2.e6ab0b89.chunk.js.map",
+    "index.html": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/index.html",
+    "precache-manifest.58ee98a96049f2fa1c29cacd015ed2fb.js": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/precache-manifest.58ee98a96049f2fa1c29cacd015ed2fb.js",
+    "service-worker.js": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/service-worker.js",
+    "static/css/main.b15ff47e.chunk.css.map": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/static/css/main.b15ff47e.chunk.css.map",
+    "static/js/2.e6ab0b89.chunk.js.LICENSE.txt": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/static/js/2.e6ab0b89.chunk.js.LICENSE.txt",
+    "static/media/crown.19ef7b17.svg": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/static/media/crown.19ef7b17.svg",
+    "static/media/shopping-bag.30f07071.svg": "/mrrezaahmadi/ReactJS-ClothStore_ECommerce.git/static/media/shopping-bag.30f07071.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e24ed1e.js",
+    "static/js/2.e6ab0b89.chunk.js",
+    "static/css/main.b15ff47e.chunk.css",
+    "static/js/main.6a56a267.chunk.js"
+  ]
+}
